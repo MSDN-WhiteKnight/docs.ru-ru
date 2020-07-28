@@ -531,6 +531,6 @@ var ind = numbers.IndexOfAny(stackalloc[] { 2, 4, 6, 8 });
 Console.WriteLine(ind);  // output: 1
 ```
 
-## <a name="enhancement-of-interpolated-verbatim-strings"></a>Улучшение интерполированных строк verbatim
+## <a name="enhancement-of-interpolated-verbatim-strings"></a>Улучшение буквальных интерполированных строк
 
-Порядок маркеров `$` и `@` в [интерполированных ](../language-reference/tokens/interpolated.md) строках verbatim может быть любым: и `$@"..."`, и `@$"..."` являются допустимыми интерполированными строками verbatim. В более ранних версиях C# маркер`$` должен располагаться перед маркером `@`.
+Порядок маркеров `$` и `@` в буквальных [интерполированных](../language-reference/tokens/interpolated.md) строках может быть любым: и `$@"..."`, и `@$"..."` являются допустимыми буквальными интерполированными строками. В более ранних версиях C# маркер `$` должен располагаться перед маркером `@`.
