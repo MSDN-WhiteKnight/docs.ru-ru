@@ -30,7 +30,7 @@ ms.locfileid: "86309408"
 - [Присваивание объединения со значением NULL](#null-coalescing-assignment)
 - [Неуправляемые сконструированные типы](#unmanaged-constructed-types)
 - [Выражение stackalloc во вложенных выражениях](#stackalloc-in-nested-expressions)
-- [Улучшение интерполированных строк verbatim](#enhancement-of-interpolated-verbatim-strings)
+- [Улучшение буквальных интерполированных строк](#enhancement-of-interpolated-verbatim-strings)
 
 C# 8.0 поддерживается в **.NET Core 3.x** и **.NET Standard 2.1**. Дополнительные сведения см. в статье [Управление версиями языка C#](../language-reference/configure-language-version.md).
 
